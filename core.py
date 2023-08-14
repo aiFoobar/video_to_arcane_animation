@@ -170,16 +170,3 @@ class ArcaneGANImageConverter:
         im = self.scale_by_face_size(im, target_face=256, max_res=1_500_000, max_upscale=1)
         res = self.proc_pil_img(im, modelv4)
         return res
-        
-
-# if __name__ == "__main__":
-#     input_dir="/home/kamar/batch/tmp/"
-#     output_dir="/home/kamar/batch/tmp/"
-#     all_files = os.listdir(input_dir)
-
-#     for name in all_files:
-#         if name[-4:] in valid_extensions:
-#             image = PIL.Image.open(input_dir+name)
-#             ab = process(image)
-#             ab.save(output_dir+name)
-#             print("Completed :"+name)
