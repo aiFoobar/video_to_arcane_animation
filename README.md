@@ -2,6 +2,10 @@
 
 Python ML project to convert any video to arcane animation using ArcaneGAN
 
+## System Requirements
+1. Linux OS preferably Ubuntu 20.04LTS and above
+2. nVidia GPU with CUDA cores
+
 ## Installation
 
 1. Clone/Download the repo
